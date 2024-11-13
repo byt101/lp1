@@ -39,7 +39,8 @@ public class Ass4_FCFS {
         for(int i = 0; i < n; i++) {
             System.out.println(pid[i] + "\t" + ar[i] + "\t" + bt[i] + "\t" + ct[i] + "\t\t" + ta[i] + "\t\t" + wt[i]);
         }
-        System.out.printf("\nAverage waiting time: %.2f\nAverage turnaround time: %.2f\n", avgwt/n, avgta/n);
+        System.out.println("\nAverage waiting time: "+avgwt/n);
+        System.out.println("\nAverage turnaround time: "+avgta/n);
         sc.close(); 
     }
     // Swap method to reduce repetitive swap code
